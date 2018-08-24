@@ -19,10 +19,11 @@ class Input extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    let value = this.state.value;
-    this.setState(() => ({ value: '' }))
-    this.props.handleChatSubmit(this.props.activeTab, value);
-    
+    if (this.state.value) {
+      let value = this.state.value;
+      this.setState(() => ({ value: '' }))
+      this.props.handleChatSubmit(this.props.activeTab, value);
+    }
   }
 
   render() {

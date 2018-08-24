@@ -1,0 +1,28 @@
+.sidebarListItem {
+  width: 80%;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  display: block;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: .5rem;
+  cursor: pointer;
+  transition: all 0.1s;
+
+  &:not(.active):hover {
+    color: #fff;
+    background-color: $dark-grey-1;
+  }
+
+
+  &__link {
+  text-decoration: none;
+  color: currentColor;
+
+    &--user {
+      text-transform: uppercase;
+    } 
+  }
+}
+
+

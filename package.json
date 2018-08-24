@@ -1,0 +1,20 @@
+{
+  "name": "slack",
+  "version": "1.0.0",
+  "description": "A simplified version of slack built using React and SCSS. Features include\n\n• A list of Channels\n\n• A list of Users\n\n• Maintain state for the currently-selected Channel or User\n\n• Click a Channel or User to select it\n\n• Only one Channel or User can be selected at a time\n\n• Each Channel and User has its own history of messages\n\n• Generate some fake messages for each channel\n\n• Show an input box at the bottom, only when a Channel or User is selected\n\n• Typing in the input box and hitting ENTER should add that message to the selected Channel/\nUser and clear the input.\n",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "moment": "2.22.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

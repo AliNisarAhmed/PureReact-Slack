@@ -1,0 +1,10 @@
+.sidebar {
+  background-color: $color-secondary;
+  color: #fff;
+  padding-left: 4rem;
+  padding-top: 5rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}

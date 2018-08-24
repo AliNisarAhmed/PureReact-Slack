@@ -1,0 +1,22 @@
+.people {
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    text-transform: capitalize;
+    list-style: none;
+    display: block;
+    font-size: 1.8rem;
+    border-radius: 3px;
+    padding: 5px;
+
+    &:hover {
+      color: $color-primary;
+      background-color: gold;
+    }
+  }
+}

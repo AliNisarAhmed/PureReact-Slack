@@ -1,0 +1,45 @@
+.message {
+
+  padding: 0 1rem;
+  margin: 1.5rem 0;
+  display: flex;
+
+  &__pic {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+
+  &__text {
+    display: flex;
+    flex-flow: column;
+    margin-left: 1rem;
+    justify-content: space-around;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  &__username {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-right: 1rem;
+  }
+
+  &__date {
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  &__content {
+    font-size: 1.7rem;
+    line-height: 1;
+  }
+}

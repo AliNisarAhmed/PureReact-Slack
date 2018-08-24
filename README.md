@@ -1,7 +1,9 @@
 # PureReact-Slack
 Created with CodeSandbox
 
-View the project on [CodeSandBox](https://i.imgur.com/Am12q9t.png)
+![screenshot](https://i.imgur.com/Am12q9t.png)
+
+View the project on [CodeSandBox](https://codesandbox.io/s/github/AliNisarAhmed/PureReact-Slack/tree/master/)
 
 This very simple Slack model was built as the final assignment of the book "Pure React" by Dave Ceddia.
 

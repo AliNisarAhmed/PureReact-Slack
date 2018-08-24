@@ -19,7 +19,7 @@ class Input extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    if (this.state.value) {
+    if (this.state.value.length > 0) {
       let value = this.state.value;
       this.setState(() => ({ value: '' }))
       this.props.handleChatSubmit(this.props.activeTab, value);
